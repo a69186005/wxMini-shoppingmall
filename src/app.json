@@ -1,0 +1,86 @@
+{
+  "pages": [
+    "pages/payment/main",
+    "pages/detail/main",
+    "pages/editAddress/main",
+    "pages/manage/main",
+    "pages/cart/main",
+    "pages/list/main",
+    "pages/personal/main",
+    "pages/index/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#292929",
+    "navigationBarTitleText": "闲来美食",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "backgroundColor": "#292929",
+    "selectedColor": "#ffffff",
+    "borderStyle": "black",
+
+    "list": [{
+      "text": "精选",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/icons/selection-grey.png",
+      "selectedIconPath": "static/icons/selection-white.png"
+    }, {
+      "text": "购物车",
+      "pagePath": "pages/cart/main",
+      "iconPath": "static/icons/cart-grey.png",
+      "selectedIconPath": "static/icons/cart-white.png"
+    },{
+      "text": "我的",
+      "pagePath": "pages/personal/main",
+      "iconPath": "static/icons/person-grey.png",
+      "selectedIconPath": "static/icons/person-white.png"
+    }],
+
+    "items": [{
+      "text": "精选",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/icons/selection-grey.png",
+      "selectedIconPath": "static/icons/selection-white.png"
+    }, {
+      "text": "购物车",
+      "pagePath": "pages/cart/main",
+      "iconPath": "static/icons/cart-grey.png",
+      "selectedIconPath": "static/icons/cart-white.png"
+    },{
+      "text": "我的",
+      "pagePath": "pages/personal/main",
+      "iconPath": "static/icons/person-grey.png",
+      "selectedIconPath": "static/icons/person-white.png"
+    }],
+    "position": "bottom"
+  },
+  "usingComponents": {
+    "van-button": "vant-weapp/dist/button/index",
+    "van-card": "vant-weapp/dist/card/index",
+    "van-submit-bar": "vant-weapp/dist/submit-bar/index",
+    "van-tag": "vant-weapp/dist/tag/index",
+    "van-checkbox": "vant-weapp/dist/checkbox/index",
+    "van-checkbox-group": "vant-weapp/dist/checkbox-group/index",
+    "van-stepper": "vant-weapp/dist/stepper/index",
+    "van-grid": "vant-weapp/dist/grid/index",
+    "van-grid-item": "vant-weapp/dist/grid-item/index",
+    "van-cell": "vant-weapp/dist/cell/index",
+    "van-cell-group": "vant-weapp/dist/cell-group/index",
+    "van-divider": "vant-weapp/dist/divider/index",
+    "van-tab": "vant-weapp/dist/tab/index",
+    "van-tabs": "vant-weapp/dist/tabs/index",
+    "van-icon": "vant-weapp/dist/icon/index",
+    "van-field": "vant-weapp/dist/field/index",
+    "van-area": "vant-weapp/dist/area/index",
+    "van-popup": "vant-weapp/dist/popup/index",
+    "van-switch": "vant-weapp/dist/switch/index",
+    "van-goods-action": "vant-weapp/dist/goods-action/index",
+    "van-goods-action-icon": "vant-weapp/dist/goods-action-icon/index",
+    "van-goods-action-button": "vant-weapp/dist/goods-action-button/index",
+    "van-swipe-cell": "vant-weapp/dist/swipe-cell/index",
+    "van-panel": "vant-weapp/dist/panel/index"
+  }
+  
+}
